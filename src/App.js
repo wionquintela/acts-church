@@ -1,13 +1,13 @@
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-import MissionVision from "./components/MissionVision";
+import About from "./components/About";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Header />
-      <MissionVision />
+      <About id="church"/>
     </div>
   );
 }

@@ -17,7 +17,7 @@ export default function Header() {
                 <h4 className="text-white">Welcome to</h4>
                 <h1 className="text-[50px] text-white drop-shadow-lg font-semibold"> Acts Christian Church</h1>
                 <button className="text-md border border-2 rounded-sm p-1 text-white hover:scale-105 delay-75 mt-4 font-semibold">
-                    <a href="">More</a>
+                    <a href="#church">More</a>
                 </button>
         </div>
         </div>
