@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import Events from "./components/Events";
 import About from "./components/About";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
+      <Events id="events"/>
       <About id="church"/>
     </div>
   );
