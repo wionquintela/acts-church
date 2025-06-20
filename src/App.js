@@ -1,15 +1,18 @@
+import { Router } from "react-router";
+import { Routes } from "react-router";
+import { Route } from "react-router";
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import Events from "./components/Events";
-import About from "./components/About";
+import MainPage from "./MainPage";
+import EventDetails from "./components/EventDetails";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <Navbar />
-      <Header />
-      <Events id="events"/>
-      <About id="church"/>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/eventDetails" element={<EventDetails />} />
+      </Routes>
     </div>
   );
 }

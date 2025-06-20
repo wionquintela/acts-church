@@ -16,9 +16,10 @@ export default function Header() {
          <div className="relative z-10">
                 <h4 className="text-white">Welcome to</h4>
                 <h1 className="text-[50px] text-white drop-shadow-lg font-semibold"> Acts Christian Church</h1>
-                <button className="text-md border border-2 rounded-sm p-1 text-white hover:scale-105 delay-75 mt-4 font-semibold">
-                    <a href="#church">More</a>
-                </button>
+                <a className="border bg-white text-black pr-5 pl-5 pt-1 pb-1 rounded-sm" href="/#events">CHECK EVENTS</a>
+                {/* <button className="text-md border border-2 rounded-sm p-1 border-green-500 text-green-500 hover:bg-green hover:text-white delay-75 mt-4 font-semibold">
+                    More
+                </button> */}
         </div>
         </div>
     )
