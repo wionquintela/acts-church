@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "Prayer and Exercise",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "date": "6/17/2025",
+        "img": "https://cdn.pixabay.com/photo/2021/12/12/20/00/play-6865967_640.jpg",
+        "alt": "https://cdn.pixabay.com/photo/2021/12/12/20/00/play-6865967_640.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Thanksgiving Celebration",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "date": "6/17/2025",
+        "img": "https://cdn.pixabay.com/photo/2021/12/12/20/00/play-6865967_640.jpg",
+        "alt": "https://cdn.pixabay.com/photo/2021/12/12/20/00/play-6865967_640.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Bible Study",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "date": "6/17/2025",
+        "img": "https://cdn.pixabay.com/photo/2021/12/12/20/00/play-6865967_640.jpg",
+        "alt": "https://cdn.pixabay.com/photo/2021/12/12/20/00/play-6865967_640.jpg"
+    },
+     {
+        "id": 4,
+        "title": "Bible Study",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "date": "6/17/2025",
+        "img": "https://cdn.pixabay.com/photo/2021/12/12/20/00/play-6865967_640.jpg",
+        "alt": "https://cdn.pixabay.com/photo/2021/12/12/20/00/play-6865967_640.jpg"
+    }
+
+]
