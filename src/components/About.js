@@ -15,14 +15,16 @@ export default function About({id}) {
                    {/*Gradient*/}
                    <div className="absolute inset-0 bg-gradient-to-b from-blue-600/60 to-red-300/40"></div>
                  {/*Content*/}
-                 <div className="relative z-10">
+                 <div className="relative z-10" id="services">
                         <h1 className="text-[50px] text-white drop-shadow-lg font-semibold">Service Times</h1>
-                        <div className="grid sm:grid-cols-4 grid-cols-1  gap-4 pt-4">
+                        <div className="grid sm:grid-cols-3 grid-cols-1  gap-4 pt-4">
                           <div className="text-white pb-5 sm:pb-1"><span style={{color: "white"}}><i class="fa-regular fa-clock fa-2xl"></i></span><h1 className="sm:text-[20px] text-[15px] drop-shadow-lg pt-2">Regular Service</h1><p className="sm:text-[15px] text-[13px]">Every Sunday 9:00 AM</p></div>
                         <div className="text-white pb-5 sm:pb-1"><span style={{color: "white"}}><i class="fa-regular fa-clock fa-2xl"></i></span><h1 className="sm:text-[20px] drop-shadow-lg pt-2">Prayer Meeting</h1><p className="sm:text-[15px] text-[13px]">Every Thursday 7:00 PM</p></div>
-                        <div className="text-white pb-5 sm:pb-1"><span style={{color: "white"}}><i class="fa-regular fa-clock fa-2xl"></i></span><h1 className="sm:text-[20px] text-[15px] drop-shadow-lg pt-2">Bible Study</h1><p className="sm:text-[15px] text-[13px]">Every Wednesday 4:00 PM</p></div>
-                        <div className="text-white pb-5 sm:pb-1"><span style={{color: "white"}}><i class="fa-regular fa-clock fa-2xl"></i></span><h1 className="sm:text-[20px] text-[15px] drop-shadow-lg pt-2">Pag-aaral</h1><p className="sm:text-[15px] text-[13px]">Every Last Wednesday 4:00 PM</p></div>
+                        <div className="text-white pb-5 sm:pb-1"><span style={{color: "white"}}><i class="fa-regular fa-clock fa-2xl"></i></span><h1 className="sm:text-[20px] text-[15px] drop-shadow-lg pt-2">Bible Study</h1><p className="sm:text-[15px] text-[13px]">Every Wednesday 4:00 PM, except on Last Sundays</p></div>
                         </div>
+                         <div className="grid sm:grid-cols-2 grid-cols-1  gap-4 pt-4 pt-[100px]">
+                          <div className="text-white pb-5 sm:pb-1"><span style={{color: "white"}}><i class="fa-solid fa-book fa-2xl"></i></span><h1 className="sm:text-[20px] text-[15px] drop-shadow-lg pt-2">New Believer's Class</h1><p className="sm:text-[15px] text-[13px]">Every 2nd, 3rd, 4th* Sunday after Regular Service</p></div>
+                         <div className="text-white pb-5 sm:pb-1"><span style={{color: "white"}}><i class="fa-solid fa-book fa-2xl"></i></span><h1 className="sm:text-[20px] text-[15px] drop-shadow-lg pt-2">Pag-aaral</h1><p className="sm:text-[15px] text-[13px]">Every Last Wednesday 4:00 PM</p></div></div>
                 </div>
                 
                 </div>
