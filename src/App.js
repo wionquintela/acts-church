@@ -4,6 +4,7 @@ import { Route } from "react-router";
 import Navbar from "./components/Navbar";
 import MainPage from "./MainPage";
 import EventDetails from "./components/EventDetails";
+import Ministries from "./components/Ministries";
 import { useState } from "react";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage selected={selected} setSelected={setSelected} selectedEvent={selectedEvent}/>} />
         <Route path="/eventDetails" element={<EventDetails selected={selected} setSelected={setSelected} selectedEvent={selectedEvent}/>} />
+        <Route path="/ministries" element={<Ministries />}/>
       </Routes>
     </div>
   );

@@ -10,14 +10,14 @@ export default function EventsList({id, selected, setSelected, selectedEvent}) {
     }, [])
     return (
         <div className="bg-[#faf8f6]" id="events">
-            <h1 className="text-center sm:pl-5 pb-[20px] pt-[20px] text-3xl bg-blue-500 text-white p-2 font-bold">Events</h1>
+            <h1 className="text-center sm:pl-5 pb-[20px] pt-[20px] text-3xl p-2 font-semibold">Events</h1>
             <div className="p-5 mt-2 grid sm:grid-cols-3 lg:grid-cols-4 grid-cols-1 gap-4" > 
-            {data.map((data) => (
+            {data.length > 0 ? (data.map((data) => (
                 <Card 
                 {...data} 
                 onClick={() => selectedEvent(data)} 
                 selected={selected}/>
-            ))}
+            ))) : <h3>There are no current events</h3>}
         </div>
         </div>
     )
