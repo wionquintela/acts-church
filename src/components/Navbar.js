@@ -6,11 +6,11 @@ export default function Navbar() {
             <nav className="sm:ml-5 flex justify-center items-center md:flex-row flex-col mx-auto">
                <div className="">
                 <ul className="flex items-center gap-[4vw] bg-[#faf8f6]">
-                <li className=""><h3 className="text-[13px] sm:text-[17px]"><a href="/#events" className="hover:text-blue-400 hover:underline">Events</a></h3></li>
-                <li className=""><h3 className="text-[13px] sm:text-[17px]"><a href="/#about" className="hover:text-blue-400 hover:underline">About</a></h3></li>
+                <li className=""><h3 className="text-[13px] sm:text-[15px]"><a href="/#events" className="hover:text-blue-400 hover:underline">Events</a></h3></li>
+                <li className=""><h3 className="text-[13px] sm:text-[15px]"><a href="/#about" className="hover:text-blue-400 hover:underline">About</a></h3></li>
                 <li className=""><a href="/"><img src={logo} className="w-[90px]" alt="" /></a></li>
-                <li className=""><h3 className="text-[13px] sm:text-[17px]"><a href="/#services" className="hover:text-blue-400 hover:underline">Services</a></h3></li>
-                <li className=""><h3 className="text-[13px] sm:text-[17px]"><a href="/#ministries" className="hover:text-blue-400 hover:underline">Ministries</a></h3></li>
+                <li className=""><h3 className="text-[13px] sm:text-[15px]"><a href="/#services" className="hover:text-blue-400 hover:underline">Services</a></h3></li>
+                <li className=""><h3 className="text-[13px] sm:text-[15px]"><a href="/#ministries" className="hover:text-blue-400 hover:underline">Ministries</a></h3></li>
             </ul>
                </div>
             </nav>

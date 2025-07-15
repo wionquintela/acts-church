@@ -23,7 +23,7 @@ export default function About({id}) {
                         <div className="text-white pb-5 sm:pb-1"><span style={{color: "white"}}><i class="fa-regular fa-clock fa-2xl"></i></span><h1 className="sm:text-[20px] text-[15px] drop-shadow-lg pt-2">Bible Study</h1><p className="sm:text-[15px] text-[13px]">Every Wednesday 4:00 PM, except on Last Sundays</p></div>
                         </div>
                          <div className="grid sm:grid-cols-2 grid-cols-1  gap-4 pt-4 pt-[100px]">
-                          <div className="text-white pb-5 sm:pb-1"><span style={{color: "white"}}><i class="fa-solid fa-book fa-2xl"></i></span><h1 className="sm:text-[20px] text-[15px] drop-shadow-lg pt-2">New Believer's Class</h1><p className="sm:text-[15px] text-[13px]">Every 2nd, 3rd, 4th* Sunday after Regular Service</p></div>
+                          <div className="text-white pb-5 sm:pb-1"><span style={{color: "white"}}><i class="fa-solid fa-book fa-2xl"></i></span><h1 className="sm:text-[20px] text-[15px] drop-shadow-lg pt-2">New Believer's Class</h1><p className="sm:text-[15px] text-[13px]">After Regular Service, except First and Last Sunday</p></div>
                          <div className="text-white pb-5 sm:pb-1"><span style={{color: "white"}}><i class="fa-solid fa-book fa-2xl"></i></span><h1 className="sm:text-[20px] text-[15px] drop-shadow-lg pt-2">Pag-aaral</h1><p className="sm:text-[15px] text-[13px]">Every Last Wednesday 4:00 PM</p></div></div>
                 </div>
                 

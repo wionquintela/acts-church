@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage selected={selected} setSelected={setSelected} selectedEvent={selectedEvent}/>} />
         <Route path="/eventDetails" element={<EventDetails selected={selected} setSelected={setSelected} selectedEvent={selectedEvent}/>} />
-        <Route path="/ministries" element={<Ministries />}/>
+        {/* <Route path="/ministries" element={<Ministries />}/> */}
       </Routes>
     </div>
   );
